@@ -11,10 +11,10 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char a[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ";
+	char a[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 53; i++)
 		putchar(a[i]);
 
 	putchar('\n');
