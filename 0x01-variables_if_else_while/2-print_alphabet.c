@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	char a[10] = "abcdefghij";
+	char a[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 26; i++)
 		putchar(a[i]);
 
 	putchar('\n');
