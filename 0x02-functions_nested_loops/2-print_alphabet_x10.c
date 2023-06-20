@@ -5,7 +5,7 @@
  * print_alphabet_x10 - print 10 times alphabet
  *
  * Description: function that prints 10 times alphabet
- * main.h: prototype of function
+ * main.h: prototype of function:
  * Return: void
  */
 void print_alphabet_x10(void)
@@ -17,8 +17,7 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-		le = ' ';
-		for (le = ' '; le < 'z'; le++)
+		for (le = ' '; le <= 'z'; le++)
 		{
 			_putchar(le);
 		}
