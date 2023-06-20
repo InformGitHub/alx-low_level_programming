@@ -14,11 +14,11 @@ int main(void)
 {
 	int k, p, u;
 
-	for (k = 48; k <= 58; k++)
+	for (k = 48; k < 58; k++)
 	{
-		for (p = 49; p <= 58; p++)
+		for (p = 49; p < 58; p++)
 		{
-			for (u = 50; u <= 58; u++)
+			for (u = 50; u < 58; u++)
 			{
 				if (u > p && p > k)
 				{
