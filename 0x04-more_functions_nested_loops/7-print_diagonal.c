@@ -16,8 +16,7 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		int l;
-		int k;
+		int l, k;
 
 		for (l = 0; l < n; l++)
 		{
@@ -29,7 +28,7 @@ void print_diagonal(int n)
 				}
 				else if (k < l)
 				{
-					_putchar('_');
+					_putchar(' ');
 				}
 			}
 			_putchar('\n');
