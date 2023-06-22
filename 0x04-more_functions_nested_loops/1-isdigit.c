@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * _isdigit: function that checks for a digit (0 through 9)
+ * _isdigit - function that checks for a digit (0 through 9)
  * @c: character to be checked
  *
  * Description: function
