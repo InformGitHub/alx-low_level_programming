@@ -1,18 +1,27 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - check the code
+ * *_strcpy - returns the length of a string
  *
- * Return: Always 0.
+ * Description: function
+ * @dest: ct
+ * @src: cf
+ * Return: dest
  */
-int main(void)
+char *_strcpy(char *dest, char *src)
 {
-	char s1[98];
-	char *ptr;
+	int l = 0;
+	int lo = 0;
 
-	ptr = _strcpy(s1, "First, solve the problem. Then, write the code\n");
-	printf("%s", s1);
-	printf("%s", ptr);
-	return (0);
+	while (*(src + l) != '\0')
+	{
+		l++;
+	}
+	for ( ; lo < l; lo++)
+	{
+		dest[lo] = src[lo];
+	}
+	dest[l] = '\0';
+	return (dest);
 }
