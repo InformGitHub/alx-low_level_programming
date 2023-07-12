@@ -41,7 +41,7 @@ char **strtow(char *str)
 	wds_count = count_w_str(str);
 	if (wds_count == 0)
 		return (NULL);
-	matrix = (char **) malloc(sizeof(char *) * (wds_count + 1));
+	matrix = malloc(sizeof(char *) * (wds_count + 1));
 	if (matrix == NULL)
 		return (NULL);
 	for (k = 0; k <= l; k++)
@@ -51,7 +51,7 @@ char **strtow(char *str)
 			if (ch)
 			{
 				end = k;
-				tmp = (char *) malloc(sizeof(char) * (ch + 1));
+				tmp = malloc(sizeof(char) * (ch + 1));
 				if (tmp == NULL)
 					return (NULL);
 				while (begin < end)
@@ -68,4 +68,3 @@ char **strtow(char *str)
 	matrix[k2] = NULL;
 	return (matrix);
 }
-
