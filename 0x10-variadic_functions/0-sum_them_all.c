@@ -11,7 +11,7 @@ int sum_them_all(const unsigned int n, ...)
 {
 	int S = 0, k = n;
 	va_list sn;
-	
+
 	if (!n)
 		return (0);
 	va_start(sn, n);
