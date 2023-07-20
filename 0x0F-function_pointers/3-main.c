@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - check code for student's school
+ * main - checking
  * @argc: args's number
  * @argv: vector's arg
  *
