@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  * print_listint - prints a linked list
+  * print_listint - returns the number of elements in a linked listint_t list
   * @h: pointer
   *
   * return: size
