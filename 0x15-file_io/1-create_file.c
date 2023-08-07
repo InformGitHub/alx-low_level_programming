@@ -20,7 +20,7 @@ int _strlen(char *s)
 }
 
 /**
- * create_file -  creates file
+ * create_file - creates file
  * to the POSIX standard output
  * @filename: filename reading
  * @text_content: text to write
